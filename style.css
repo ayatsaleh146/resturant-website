@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.89);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+
+span {
+  color: rgb(255, 30, 0);
+  font-size: 25px;
+}
+
+.nav {
+  margin-right: 100px;
+}
+
+.nav a {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px ;
+  transition: .3s;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+
+}
+
+.nav a:hover {
+  color: rgb(255, 30, 0);
+  text-shadow: 0 0 20px rgb(255, 30, 0);
+  border-top: 1px solid rgb(255, 30, 0);
+  border-bottom: 1px solid rgb(255, 30, 0);
+}
+
+.home {
+  background-image: url(e4aeb6247e76f506c4a65c04a2c7fc7b.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.content p {
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+#btn {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  background: none;
+  border-radius: 10px;
+  border-color: white;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+
